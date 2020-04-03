@@ -79,7 +79,7 @@
             "m_Guid": ""
         }
     },
-    "m_Path": "Shader Graphs",
+    "m_Path": "_IceEffect",
     "m_ConcretePrecision": 0,
     "m_ActiveOutputNodeGuidSerialized": "8c5a9c77-28f4-482b-9ac5-93fcbae2e839"
 }

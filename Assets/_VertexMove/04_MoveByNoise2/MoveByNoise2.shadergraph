@@ -181,7 +181,7 @@
             "m_Guid": ""
         }
     },
-    "m_Path": "Shader Graphs",
+    "m_Path": "_VertexMove",
     "m_ConcretePrecision": 0,
     "m_ActiveOutputNodeGuidSerialized": "9654cb5a-89d6-4ab9-8111-3b1f6a189fed"
 }
