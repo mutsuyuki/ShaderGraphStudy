@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 6790376}
   - component: {fileID: 6790377}
   m_Layer: 0
-  m_Name: SphereMask&ViewDirection
+  m_Name: MoveBySine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,7 +146,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6790375}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4, y: 0, z: 0}
+  m_LocalPosition: {x: -4, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1862198870}
@@ -155,7 +155,7 @@ Transform:
   - {fileID: 85906906}
   - {fileID: 1906223681}
   m_Father: {fileID: 1837740427}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6790377
 MonoBehaviour:
@@ -469,7 +469,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8bc7bbd4d93050a448cfe90c2a49a2ed, type: 2}
+  - {fileID: 2100000, guid: be7db6f202fd97b409f11e1efe657764, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1239,7 +1239,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994d6136e8bdd4f44bb22bb2a95a7530, type: 2}
+  - {fileID: 2100000, guid: 262a10aab636d7f4696215e0cc2edd35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1462,7 +1462,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 207ca286b617db84485f3f9b0acb8a7f, type: 2}
+  - {fileID: 2100000, guid: f23111686dd87974bada15b2d548bffb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1556,7 +1556,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8bc7bbd4d93050a448cfe90c2a49a2ed, type: 2}
+  - {fileID: 2100000, guid: be7db6f202fd97b409f11e1efe657764, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1891,7 +1891,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342476794}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1601688854}
@@ -1900,7 +1900,7 @@ Transform:
   - {fileID: 1350951839}
   - {fileID: 210264285}
   m_Father: {fileID: 1837740427}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &342476796
 MonoBehaviour:
@@ -2201,7 +2201,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994d6136e8bdd4f44bb22bb2a95a7530, type: 2}
+  - {fileID: 2100000, guid: 262a10aab636d7f4696215e0cc2edd35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2294,7 +2294,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994d6136e8bdd4f44bb22bb2a95a7530, type: 2}
+  - {fileID: 2100000, guid: 262a10aab636d7f4696215e0cc2edd35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2820,7 +2820,7 @@ GameObject:
   - component: {fileID: 585978875}
   - component: {fileID: 585978876}
   m_Layer: 0
-  m_Name: ViewDirection
+  m_Name: MoveByNoise2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2834,7 +2834,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585978874}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 8, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 969080430}
@@ -2843,7 +2843,7 @@ Transform:
   - {fileID: 273166870}
   - {fileID: 1815207661}
   m_Father: {fileID: 1837740427}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &585978876
 MonoBehaviour:
@@ -2871,7 +2871,7 @@ GameObject:
   - component: {fileID: 591202516}
   - component: {fileID: 591202515}
   m_Layer: 0
-  m_Name: SphereMask
+  m_Name: MoveBySine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2914,7 +2914,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sphere Mask
+  m_text: Sine2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2983,10 +2983,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 591202515}
-    characterCount: 11
+    characterCount: 5
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 1
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -3126,7 +3126,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 207ca286b617db84485f3f9b0acb8a7f, type: 2}
+  - {fileID: 2100000, guid: f23111686dd87974bada15b2d548bffb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3361,7 +3361,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8bc7bbd4d93050a448cfe90c2a49a2ed, type: 2}
+  - {fileID: 2100000, guid: be7db6f202fd97b409f11e1efe657764, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3497,7 +3497,7 @@ GameObject:
   - component: {fileID: 769748358}
   - component: {fileID: 769748357}
   m_Layer: 0
-  m_Name: SphereMask&ViewDirection
+  m_Name: MoveByNoise1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3540,11 +3540,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'SphereMask
-
-    &
-
-    View Direction'
+  m_text: Noise1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3613,12 +3609,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 769748357}
-    characterCount: 27
+    characterCount: 6
     spriteCount: 0
-    spaceCount: 3
-    wordCount: 3
+    spaceCount: 0
+    wordCount: 1
     linkCount: 0
-    lineCount: 3
+    lineCount: 1
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -4034,7 +4030,7 @@ GameObject:
   - component: {fileID: 808215969}
   - component: {fileID: 808215968}
   m_Layer: 0
-  m_Name: Translucent
+  m_Name: MoveByNoise2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4077,9 +4073,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Result
-
-    (Translucent)'
+  m_text: Noise2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4148,12 +4142,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 808215968}
-    characterCount: 20
+    characterCount: 6
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 1
     linkCount: 0
-    lineCount: 2
+    lineCount: 1
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -4886,7 +4880,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 207ca286b617db84485f3f9b0acb8a7f, type: 2}
+  - {fileID: 2100000, guid: f23111686dd87974bada15b2d548bffb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5698,7 +5692,7 @@ GameObject:
   - component: {fileID: 1213503894}
   - component: {fileID: 1213503895}
   m_Layer: 0
-  m_Name: MoveToNormal
+  m_Name: MoveBySine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6036,7 +6030,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994d6136e8bdd4f44bb22bb2a95a7530, type: 2}
+  - {fileID: 2100000, guid: 262a10aab636d7f4696215e0cc2edd35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6802,7 +6796,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994d6136e8bdd4f44bb22bb2a95a7530, type: 2}
+  - {fileID: 2100000, guid: 262a10aab636d7f4696215e0cc2edd35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6842,7 +6836,7 @@ GameObject:
   - component: {fileID: 1625372739}
   - component: {fileID: 1625372740}
   m_Layer: 0
-  m_Name: MoveToNormalWithNoise
+  m_Name: MoveByNoise1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6856,7 +6850,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625372738}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 0, z: 0}
+  m_LocalPosition: {x: 4, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 112165166}
@@ -6865,7 +6859,7 @@ Transform:
   - {fileID: 1276018005}
   - {fileID: 1521525889}
   m_Father: {fileID: 1837740427}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1625372740
 MonoBehaviour:
@@ -7663,7 +7657,7 @@ GameObject:
   - component: {fileID: 1787624488}
   - component: {fileID: 1787624487}
   m_Layer: 0
-  m_Name: ViewDirection
+  m_Name: MoveBySine3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7706,7 +7700,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: View Direction
+  m_text: Sine3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7775,10 +7769,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1787624487}
-    characterCount: 14
+    characterCount: 5
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 1
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -7960,7 +7954,7 @@ GameObject:
   - component: {fileID: 1815134401}
   - component: {fileID: 1815134400}
   m_Layer: 0
-  m_Name: DistanceField
+  m_Name: MoveBySine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8003,7 +7997,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Distance Field
+  m_text: Sine1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8072,10 +8066,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1815134400}
-    characterCount: 14
+    characterCount: 5
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 1
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -8215,7 +8209,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 207ca286b617db84485f3f9b0acb8a7f, type: 2}
+  - {fileID: 2100000, guid: f23111686dd87974bada15b2d548bffb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8477,10 +8471,10 @@ Transform:
   m_Children:
   - {fileID: 354445303}
   - {fileID: 1213503894}
-  - {fileID: 1625372739}
-  - {fileID: 585978875}
   - {fileID: 6790376}
   - {fileID: 342476795}
+  - {fileID: 1625372739}
+  - {fileID: 585978875}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8548,7 +8542,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8bc7bbd4d93050a448cfe90c2a49a2ed, type: 2}
+  - {fileID: 2100000, guid: be7db6f202fd97b409f11e1efe657764, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8922,7 +8916,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8bc7bbd4d93050a448cfe90c2a49a2ed, type: 2}
+  - {fileID: 2100000, guid: be7db6f202fd97b409f11e1efe657764, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9202,7 +9196,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 207ca286b617db84485f3f9b0acb8a7f, type: 2}
+  - {fileID: 2100000, guid: f23111686dd87974bada15b2d548bffb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
