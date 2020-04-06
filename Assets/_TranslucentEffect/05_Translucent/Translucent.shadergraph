@@ -4,7 +4,7 @@
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"7057b32a-27ae-4c55-957d-99881a9b038b\"\n    },\n    \"m_Name\": \"Glow Color\",\n    \"m_DefaultReferenceName\": \"Color_9368A9A7\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": {\n        \"r\": 1.0,\n        \"g\": 0.7037864923477173,\n        \"b\": 0.1320754885673523,\n        \"a\": 0.0\n    },\n    \"m_ColorMode\": 0\n}"
+            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"7057b32a-27ae-4c55-957d-99881a9b038b\"\n    },\n    \"m_Name\": \"Glow Color\",\n    \"m_DefaultReferenceName\": \"Color_9368A9A7\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": {\n        \"r\": 4.0,\n        \"g\": 2.8078432083129885,\n        \"b\": 0.5333333611488342,\n        \"a\": 0.0\n    },\n    \"m_ColorMode\": 1\n}"
         },
         {
             "typeInfo": {
