@@ -13,4 +13,4 @@ Effect練習（Glitch）
 ![glitch](https://user-images.githubusercontent.com/16832362/78572860-f9b8fe00-7862-11ea-96fc-0e2ac42483d8.gif)
 
 Deefct練習（Desolve）
-![desolve](https://user-images.githubusercontent.com/16832362/78577940-ca59bf80-7869-11ea-8c91-dfc5c1c0b81c.gif)
+![desolve](https://user-images.githubusercontent.com/16832362/78579085-62a47400-786b-11ea-9567-cb607a989719.gif)
