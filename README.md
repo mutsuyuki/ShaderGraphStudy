@@ -3,7 +3,7 @@
 シェーダーグラフの機能確認用
 
 fragmentシェーダー的なものの練習
-![fragment](https://user-images.githubusercontent.com/16832362/78360222-6b8a1100-75f1-11ea-8373-064654200cbd.gif)
+![translucent](https://user-images.githubusercontent.com/16832362/78581421-d5631e80-786e-11ea-8b5a-7fe7e68c14de.gif)
 
 
 vertexシェーダー的なものの練習
